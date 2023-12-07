@@ -331,11 +331,35 @@ footer {
   margin-bottom: 25px;
 }
 
+.to-top {
+  background-color: #14b8a6;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 10px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.to-top a {
+  color: white !important;
+  font-size: 22px;
+}
+
+.to-top:hover {
+  opacity: 0.7 !important;
+}
+
 /* MOBILE VERSION */
 @media (max-width: 576px) {
   .nav-link {
     margin-top: 20px;
     color: white;
+    text-align: center;
   }
   .navbar-nav,
   .navbar-brand {
