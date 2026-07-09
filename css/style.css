@@ -39,7 +39,7 @@ nav.sticky {
 .foto-profil {
   margin: 0 50px;
   margin-top: 15%;
-  width: 400px;
+  width: 350px;
   height: 500px;
 }
 
@@ -419,10 +419,10 @@ footer {
   }
 
   .foto-profil {
-    margin: 0 50px;
+    margin: 0 10px;
     margin-top: 15%;
     width: 350px;
-    height: 500px;
+    height: 450px;
   }
   .j-about-1 {
     margin-top: 35%;
